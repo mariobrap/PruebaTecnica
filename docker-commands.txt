@@ -1,0 +1,2 @@
+docker build -t prueba-tecnica .
+docker run -p 3005:3005 -e PORT=3005 -e JWT_SECRET=s3cr3t_k3y_jwt -e JWT_EXPIRATION_TIME=1h prueba-tecnica
